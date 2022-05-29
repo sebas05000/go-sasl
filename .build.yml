@@ -15,5 +15,5 @@ tasks:
       go test -coverprofile=coverage.txt -covermode=atomic ./...
   - upload-coverage: |
       cd go-sasl
-      export CODECOV_TOKEN=3f257f71-a128-4834-8f68-2b534e9f4cb1
+      export CODECOV_TOKEN=ab6ef672-9ccc-4b0b-87d0-952e7433dd95
       curl -s https://codecov.io/bash | bash
